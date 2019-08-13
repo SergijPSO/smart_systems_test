@@ -1,0 +1,67 @@
+@import 'variables';
+
+.app-modal {
+  position: absolute;
+  top: 0;
+  left: -5%;
+  width: 112%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.app-window {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+
+  &-form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 26px 24px 26px;
+    z-index: 1;
+    
+    &__title {
+      font-size: 24px;
+      font-weight: 500;
+      color: $drk_gray;
+    }
+
+    &__btn {
+      width: 96px;
+      border: none;
+      border-radius:4px;
+      margin-top: 8px;
+      padding: 11px 18px 10px;
+      background-color: $frm_btn_clr;
+      color: #fff;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    input {
+      padding:12px 140px 12px 18px;
+    }
+
+    &__txt {
+      padding: 12px 110px 76px 12px;
+    }
+
+    input,
+    textarea {
+      color: $lght_gray;
+      font-weight: 100;
+      font-size: 16px;
+      margin: 13px 0;
+      border: 1px solid $drk_gray;
+      outline-color:#4bc7c7;
+    }
+  }
+}
+
+

@@ -1,0 +1,18 @@
+@import 'reset';
+@import 'app_content';
+@import 'header';
+@import 'variables';
+@import 'slider';
+@import 'form';
+
+html {
+  background: rgb(75, 101, 129);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.43;
+}
+
+body{
+  max-width: 928px;
+  margin: 0 auto;
+  background-color:inherit;
+}
