@@ -544,6 +544,9 @@ img {
       outline-color: #4bc7c7; }
 
 @media screen and (max-width: 530px) {
+  .app-modal {
+    height: 108vh; }
+
   .app-window-form {
     padding: 6px 5px 5px 6px; }
     .app-window-form__user {

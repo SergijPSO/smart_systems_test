@@ -65,6 +65,13 @@
 }
 
 @media screen and (max-width: 530px) { 
+
+  .app-modal {
+    height: 108vh;
+    // left: -2%;
+    // width: 105%;
+  }
+
   .app-window {
     &-form {
       padding: 6px 5px 5px 6px;
