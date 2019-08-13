@@ -543,6 +543,13 @@ img {
       border: 1px solid #475055;
       outline-color: #4bc7c7; }
 
+@media screen and (max-width: 530px) {
+  .app-window-form {
+    padding: 6px 15px 8px 15px; }
+    .app-window-form__title {
+      font-size: 16px; }
+    .app-window-form input {
+      padding: 8px 135px 8px 18px; } }
 html {
   background: #4b6581;
   font-family: 'Roboto', sans-serif;

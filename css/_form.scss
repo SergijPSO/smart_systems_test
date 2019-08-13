@@ -65,3 +65,16 @@
 }
 
 
+@media screen and (max-width: 530px) { 
+  .app-window-form {
+    padding: 6px 15px 8px 15px;
+
+    &__title {
+      font-size: 16px;
+    }
+
+    input {
+      padding:8px 135px 8px 18px;
+    }
+  }
+}
