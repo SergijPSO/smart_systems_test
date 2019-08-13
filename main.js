@@ -1,7 +1,13 @@
 'use strict';
 // Burger dropdown function
+
 function myFunction() {
-  document.querySelector(".app-nav").style.display = "block";
+  const x = document.getElementById("navigation");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
 // Burger dropdown function
 
@@ -15,7 +21,7 @@ $(document).ready(function () {
     if ($(window).width() > 1024) {
       $('html').css('margin-right', '17px')
       $('.app-modal').css('left', '0');
-      $('.app-modal').css('width', '101%');
+      $('.app-modal').css('width', '100%');
     }
   });
 

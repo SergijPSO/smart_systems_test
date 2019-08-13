@@ -381,6 +381,8 @@ img {
     .app-nav__item {
       display: block;
       color: white; }
+      .app-nav__item:hover {
+        color: #475055; }
       .app-nav__item + .app-nav__item {
         margin: 0; } }
 @font-face {
