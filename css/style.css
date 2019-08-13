@@ -360,7 +360,8 @@ img {
   background-color: #fff;
   cursor: pointer; }
   .app-profile:hover {
-    background-color: #56ccc8; }
+    background-color: #56ccc8;
+    transition: background-color 0.4s ease; }
 
 @media screen and (max-width: 1024px) {
   body {

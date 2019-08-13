@@ -68,9 +68,12 @@
   outline: none;
   background-color: #fff;
   cursor: pointer;
+  
   &:hover {
     background-color: $active_blue;
+    transition: background-color 0.4s ease;
   }
+
 }
 
 
