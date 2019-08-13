@@ -472,21 +472,21 @@ img {
     border-radius: 4px;
     font-weight: 500; }
 
-@media screen and (max-width: 531px) {
+@media screen and (max-width: 530px) {
   .app-slider {
     margin: 0; }
     .app-slider-description {
       padding-left: 42px; }
       .app-slider-description h3 {
         padding-bottom: 0;
-        font-size: 25px; }
+        font-size: 20px; }
       .app-slider-description p {
-        font-size: 10px; }
+        font-size: 8px; }
       .app-slider-description a {
         position: inherit;
-        top: 86px;
-        font-size: 10px;
-        padding: 3px; }
+        top: 80px;
+        font-size: 9px;
+        padding: 2px; }
 
   #nav-btns {
     display: none; } }
@@ -545,13 +545,17 @@ img {
 
 @media screen and (max-width: 530px) {
   .app-window-form {
-    padding: 6px 15px 8px 15px; }
+    padding: 6px 5px 5px 6px; }
+    .app-window-form__user {
+      font-size: 10px;
+      margin: 10px 0; }
     .app-window-form__title {
       font-size: 16px; }
-    .app-window-form text-area {
-      font-size: 9px; }
     .app-window-form input {
-      padding: 8px 135px 8px 18px; } }
+      padding: 12px 125px 12px 20px; }
+    .app-window-form textarea,
+    .app-window-form input {
+      font-size: 10px; } }
 html {
   background: #4b6581;
   font-family: 'Roboto', sans-serif;
