@@ -368,7 +368,8 @@ img {
     position: relative; }
 
   .app-burger {
-    display: block; }
+    display: block;
+    height: 100%; }
 
   .app-nav {
     position: absolute;
@@ -538,7 +539,6 @@ img {
       padding: 12px 110px 76px 12px; }
     .app-window-form input,
     .app-window-form textarea {
-      color: #dde2e4;
       font-weight: 100;
       font-size: 16px;
       margin: 13px 0;
