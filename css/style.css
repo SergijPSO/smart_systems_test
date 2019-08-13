@@ -548,6 +548,8 @@ img {
     padding: 6px 15px 8px 15px; }
     .app-window-form__title {
       font-size: 16px; }
+    .app-window-form text-area {
+      font-size: 9px; }
     .app-window-form input {
       padding: 8px 135px 8px 18px; } }
 html {
