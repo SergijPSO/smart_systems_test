@@ -391,11 +391,12 @@ img {
   src: url(../assets/fonts/MyriadPro-Regular.ttf); }
 .app-slider {
   width: 100%;
+  height: 86%;
   margin-top: 32px; }
 
 #viewport {
   width: 100%;
-  height: 72%;
+  height: 86%;
   position: relative;
   overflow: hidden;
   user-select: none; }
