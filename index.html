@@ -8,10 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="https://ssdua.com/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap" rel="stylesheet">
-  <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
   <script defer src="./main.js"></script>
   <title>Smart Systems Development</title>
 </head>
@@ -19,10 +15,10 @@
 <body>
   <div class="app-modal">
     <section class="app-window">
-      <form class="app-window-form" name="registration" method="POST" action="#">
+      <form target="_blank" class="app-window-form" name="registration" method="POST" action="#">
         <h3 class="app-window-form__title">Ask a Question</h3>
-        <input class="app-window-form__user"  type="text" pattern="^([a-zA-Z0-9)$" name="name"  placeholder="Your name" data-validation="length required" data-validation-length="min3">
-        <input class="app-window-form__email"  type="email" name="email" placeholder="Enter your email" data-validation="email required">
+        <input class="app-window-form__user" type="text" pattern="^([a-zA-Z0-9)$" name="name"  placeholder="Your name" data-validation="length required" data-validation-length="min3">
+        <input class="app-window-form__email" type="email" name="email" placeholder="Enter your email" data-validation="email required">
         <textarea class="app-window-form__txt" placeholder="Your question:" name="question" data-validation="required"></textarea>
         <button class="app-window-form__btn">SUBMIT</button>
       </form>
@@ -33,6 +29,7 @@
     <div class="app-burger" onclick="myFunction()">
       <img src="./assets/images/burger.png" alt="burger">
     </div>
+
     <nav class="app-nav" id="navigation">
       <a class="app-nav__item" href="#">Home</a>
       <a class="app-nav__item" href="#">Store</a>
@@ -40,6 +37,7 @@
       <a class="app-nav__item" href="#">About</a>
       <a class="app-nav__item" href="#">Contact</a>
     </nav>
+
     <div class="app-search">
       <img src="./assets/images/search.png" alt="search"/>
     </div>
@@ -61,10 +59,13 @@
         </a>
       </li>
     </ul>
+
     <button class="app-profile" id="login-nav">
       <img src="./assets/images/user.png" alt="profile"/>
     </button>
+
   </header>
+
   <div class="app-wrapper">
     <aside class="app-sidebar">
       <nav class="app-sidebar-nav">
@@ -136,6 +137,7 @@
           Contact
         </a>
       </nav>
+
       <div class="app-contacts">
         <div class="app-contacts__item">
           <img src="./assets/images/tel.png" alt="phone"/>
@@ -149,6 +151,7 @@
           <img src="./assets/images/point.png" alt="location"/>
           <p>1600 Pennsylvania Ave NW, Washington DC 20500, USA</p>
         </div>
+
         <div class="app-contacts__item">
           <img src="./assets/images/email_white.png" alt="email"/>
           <div>
@@ -157,7 +160,9 @@
           </div>
         </div>
       </div>
+
     </aside>
+
     <main class="app-content">
       <div class="app-social">
         <ul class="app-social-panel">
@@ -206,6 +211,7 @@
               </div>
             </div>
           </div>
+    
           <div class="app-follow-panel app-follow-panel--twitter">
             <img src="./assets/images/twit_white.png" alt="facebook" />
             <div class="app-follow-panel__content">
@@ -287,11 +293,16 @@
         </div>
       </section>
   </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 <script>
   $.validate({
-      lang: 'es'
-    });
+    lang: 'en'
+  });
 </script>
+
 </body>
 
 </html>
