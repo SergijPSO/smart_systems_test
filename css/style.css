@@ -500,7 +500,9 @@ img {
   src: url(../assets/fonts/MyriadPro-Regular.ttf); }
 .app-modal {
   position: absolute;
-  width: 100%;
+  top: 0;
+  left: -5%;
+  width: 112%;
   height: 100vh;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
@@ -547,8 +549,7 @@ img {
 
 @media screen and (max-width: 530px) {
   .app-modal {
-    height: 108vh;
-    width: 100%; }
+    height: 108vh; }
 
   .app-window-form {
     padding: 6px 5px 5px 6px; }
@@ -563,7 +564,6 @@ img {
     .app-window-form input {
       font-size: 10px; } }
 html {
-  width: 100%;
   background: #4b6581;
   font-family: 'Roboto', sans-serif;
   line-height: 1.43; }

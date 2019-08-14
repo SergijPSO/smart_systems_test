@@ -2,7 +2,9 @@
 
 .app-modal {
   position: absolute;
-  width: 100%;
+  top: 0;
+  left: -5%;
+  width: 112%;
   height: 100vh;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
@@ -66,7 +68,7 @@
   .app-modal {
     height: 108vh;
     // left: -2%;
-    width: 100%;
+    // width: 105%;
   }
 
   .app-window {
