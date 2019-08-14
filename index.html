@@ -15,10 +15,10 @@
 <body>
   <div class="app-modal">
     <section class="app-window">
-      <form target="_blank" class="app-window-form" name="registration" method="POST" action="#">
+      <form class="app-window-form" name="registration" method="POST" action="#">
         <h3 class="app-window-form__title">Ask a Question</h3>
-        <input class="app-window-form__user" type="text" pattern="^([a-zA-Z0-9)$" name="name"  placeholder="Your name" data-validation="length required" data-validation-length="min3">
-        <input class="app-window-form__email" type="email" name="email" placeholder="Enter your email" data-validation="email required">
+        <input class="app-window-form__user"  type="text" pattern="^([a-zA-Z0-9)$" name="name"  placeholder="Your name" data-validation="length required" data-validation-length="min3">
+        <input class="app-window-form__email"  data-validation-error-msg-container="#email-error-dialog" type="email" name="email" placeholder="Enter your email" data-validation="email">
         <textarea class="app-window-form__txt" placeholder="Your question:" name="question" data-validation="required"></textarea>
         <button class="app-window-form__btn">SUBMIT</button>
       </form>
@@ -211,7 +211,6 @@
               </div>
             </div>
           </div>
-    
           <div class="app-follow-panel app-follow-panel--twitter">
             <img src="./assets/images/twit_white.png" alt="facebook" />
             <div class="app-follow-panel__content">
@@ -293,12 +292,9 @@
         </div>
       </section>
   </div>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-<script>
-  $.validate();
-</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
 
 </html>
