@@ -112,9 +112,3 @@ function prevSlide() {
   }
 }
 // Slider code ends
-
-//form validation
-$.validate({
-  lang: 'es'
-});
-//form validation
