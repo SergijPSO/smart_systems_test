@@ -10,6 +10,7 @@
 }
 
 .app-window {
+  max-width: 298px;
   display: none;
   position: absolute;
   top: 50%;
@@ -21,7 +22,8 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 28px 26px 24px 26px;
+    // padding: 28px 26px 24px 26px;
+    padding: 20px;
     z-index: 1;
     
     &__title {
@@ -43,7 +45,7 @@
     }
 
     input {
-      padding: 12px 140px 12px 18px;
+      padding: 12px 54px 12px 18px;
     }
 
     &__txt {
@@ -52,6 +54,7 @@
 
     input,
     textarea {
+      max-width:258px;
       font-weight: 100;
       font-size: 16px;
       margin: 13px 0;
