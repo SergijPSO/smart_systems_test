@@ -17,9 +17,18 @@
     <section class="app-window">
       <form target="_blank" class="app-window-form" name="registration" method="POST" action="#">
         <h3 class="app-window-form__title">Ask a Question</h3>
-        <input class="app-window-form__user" type="text" pattern="^([a-zA-Z0-9)$" name="name"  placeholder="Your name" data-validation="length required" data-validation-length="min3">
-        <input class="app-window-form__email" type="email" name="email" placeholder="Enter your email" data-validation="email required">
-        <textarea class="app-window-form__txt" placeholder="Your question:" name="question" data-validation="required"></textarea>
+        <div id="app-window-form__name">
+          <input class="app-window-form__user" type="text" pattern="^([a-zA-Z0-9)$" name="name" placeholder="Your name"
+            data-validation="length required" data-validation-length="min3">
+        </div>
+        <div id="app-window-form__email">
+          <input class="app-window-form__email" type="email" name="email" placeholder="Enter your email"
+            data-validation="email required">
+        </div>
+        <div id="app-window-form__question">
+          <textarea class="app-window-form__txt" placeholder="Your question:" name="question"
+            data-validation="required"></textarea>
+        </div>
         <button class="app-window-form__btn">SUBMIT</button>
       </form>
     </section>
