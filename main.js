@@ -9,11 +9,6 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-
-
-
-
-
 // Burger dropdown function
 
 // Modal window code begins
