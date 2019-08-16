@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .app-header{
+  min-width: 353px;
   @include align_center;
   height: $header-height;
   margin-bottom: 14px;

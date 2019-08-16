@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .app-wrapper {
+  min-width: 353px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
